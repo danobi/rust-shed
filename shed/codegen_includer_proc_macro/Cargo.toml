@@ -1,5 +1,5 @@
 [package]
-name = "codegen_includer_proc_macro"
+name = "fbthrift_codegen_includer_proc_macro"
 edition = "2018"
 version = "0.1.0"
 authors = ['Facebook']
@@ -8,6 +8,7 @@ build = "build.rs"
 include = ["src/**/*.rs", "tests/**/*.rs"]
 
 [lib]
+name = "codegen_includer_proc_macro"
 path = "src/lib.rs"
 proc-macro = true
 test = false
