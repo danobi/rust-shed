@@ -9,7 +9,7 @@ version = "0.1.0"
 authors = ['Facebook', 'Daniel Xu <dlxu@fb.com>']
 license = "MIT OR Apache-2.0"
 build = "build.rs"
-include = ["src/**/*.rs", "tests/**/*.rs"]
+include = ["src/**/*.rs", "tests/**/*.rs", "build.rs"]
 
 [lib]
 name = "codegen_includer_proc_macro"
