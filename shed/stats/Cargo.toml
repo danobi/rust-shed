@@ -1,13 +1,16 @@
 [package]
-name = "stats"
+name = "fb_stats"
 edition = "2018"
 version = "0.1.0"
 authors = ['Facebook']
 license = "MIT OR Apache-2.0"
 include = ["src/**/*.rs"]
 
+[lib]
+name = "stats"
+
 [dependencies]
-fbinit = { path = "../fbinit" }
+fbinit = "0.1"
 fb_futures_ext = { path = "../futures_ext" }
 perthread = { path = "../perthread" }
 fb_stats_traits = { path = "traits" }
