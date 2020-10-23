@@ -15,5 +15,5 @@ name = "stats_traits"
 path = "lib.rs"
 
 [dependencies]
-fbinit = { path = "../../fbinit" }
+fbinit = "0.1"
 auto_impl = "0.4"
