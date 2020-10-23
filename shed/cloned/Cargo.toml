@@ -1,5 +1,5 @@
 [package]
-name = "cloned"
+name = "fb_cloned"
 description = "Provides a clone macro"
 homepage = "https://github.com/facebookexperimental/rust-shed"
 repository = "https://github.com/danobi/rust-shed"
@@ -8,3 +8,6 @@ version = "0.1.0"
 authors = ['Facebook', 'Daniel Xu <dlxu@fb.com>']
 license = "MIT OR Apache-2.0"
 include = ["src/**/*.rs"]
+
+[lib]
+name = "cloned"

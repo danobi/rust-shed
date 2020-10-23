@@ -10,7 +10,7 @@ include = ["**/*.rs"]
 path = "lib.rs"
 
 [dependencies]
-cloned = { path = "../../cloned" }
+fb_cloned = { path = "../../cloned" }
 fb_failure_ext = { path = "../../failure_ext" }
 fb_futures_ext = { path = "../../futures_ext" }
 mysql_derive = { path = "../derive" }
