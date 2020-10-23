@@ -12,7 +12,7 @@ path = "lib.rs"
 [dependencies]
 cloned = { path = "../../cloned" }
 fb_failure_ext = { path = "../../failure_ext" }
-futures_ext = { path = "../../futures_ext" }
+fb_futures_ext = { path = "../../futures_ext" }
 mysql_derive = { path = "../derive" }
 anyhow = "1.0"
 auto_impl = "0.4"
