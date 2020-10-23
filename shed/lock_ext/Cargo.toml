@@ -1,8 +1,12 @@
 [package]
 name = "lock_ext"
+description = "Crate extending functionalities of std::sync"
+homepage = "https://github.com/facebookexperimental/rust-shed"
+repository = "https://github.com/danobi/rust-shed"
+keywords = ["mutex", "parkinglot", "rwlock"]
 edition = "2018"
 version = "0.1.0"
-authors = ['Facebook']
+authors = ['Facebook', 'Daniel Xu <dlxu@fb.com>']
 license = "MIT OR Apache-2.0"
 include = ["src/**/*.rs"]
 
