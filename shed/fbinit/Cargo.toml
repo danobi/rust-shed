@@ -14,7 +14,7 @@ name = "fbinit_test"
 path = "test/fbinit_test.rs"
 
 [dependencies]
-macros = { path = "macros" }
+fbinit_macros = { path = "macros" }
 quickcheck = "0.9"
 
 [dev-dependencies]
